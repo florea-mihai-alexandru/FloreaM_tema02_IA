@@ -11,6 +11,7 @@ sns.histplot(data=iris, x='petal_length', hue='species',
 kde=True, bins=15, ax=axes[0, 0])
 axes[0, 0].set_title('Distribuția lungimii petalei pe specii')
 axes[0, 0].set_xlabel('Lungime petală (cm)')
+
 # --- Subplot 2: Boxplot — lungimea sepalei per specie (Iris) ---
 sns.boxplot(data=iris, x='species', y='sepal_length', ax=axes[0, 1])
 axes[0, 1].set_title('Boxplot — lungimea sepalei pe specii')

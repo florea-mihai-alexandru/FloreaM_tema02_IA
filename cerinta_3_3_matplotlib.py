@@ -13,6 +13,9 @@ axes[0, 0].set_title('Media lungimii sepalei per specie')
 axes[0, 0].set_xlabel('Specie')
 axes[0, 0].set_ylabel('Lungime sepală (cm)')
 axes[0, 0].grid(True, alpha=0.3)
+
+
+
 # --- Subplot 2: Scatter — lungime vs. lățime petală, colorat per specie ---
 culori = {'setosa': '#e74c3c', 'versicolor': '#3498db', 'virginica': '#2ecc71'}
 for specie, culoare in culori.items():

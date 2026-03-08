@@ -19,7 +19,7 @@ mask=mask, # afișăm doar triunghiul inferior + diagonala
 annot=True, # afișăm valorile în celule
 fmt='.2f', # format cu 2 zecimale
 cmap='RdYlGn', # roșu (negativ) → galben (zero) → verde
-vmin=-1, vmax=1, # fixăm scala la [-1, +1]
+vmin=-1, vmax=1, # fixăm spcala la [-1, +1]
 square=True, # celule pătrate
 linewidths=0.8,
 cbar_kws={'label': 'Coeficient Pearson'},ax=ax)
