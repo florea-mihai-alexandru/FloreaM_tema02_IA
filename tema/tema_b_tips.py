@@ -13,7 +13,7 @@ if __name__ == "__main__":
     medie_per_zi = tips.groupby('day').mean(numeric_only=True).round(2)
     medie_per_sex = tips.groupby('sex').mean(numeric_only=True).round(2)
     print(medie_per_zi)
-    print(medie_per_specie)
+    print(medie_per_sex)
 
     copy = tips.copy()
     copy["procent_bacsis"] = copy["tip"] / copy["total_bill"] * 100
