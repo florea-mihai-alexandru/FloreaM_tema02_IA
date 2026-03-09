@@ -11,7 +11,7 @@ if __name__ == "__main__":
     print(tips.describe().round(2))
 
     medie_per_zi = tips.groupby('day').mean(numeric_only=True).round(2)
-    medie_per_specie = tips.groupby('sex').mean(numeric_only=True).round(2)
+    medie_per_sex = tips.groupby('sex').mean(numeric_only=True).round(2)
     print(medie_per_zi)
     print(medie_per_specie)
 
